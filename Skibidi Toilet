@@ -58,12 +58,116 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "Gold Skibid Toilet And Rocket Ship",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-22.8637791, -148.098938, 245.524521, -0.826363325, 2.44198279e-08, -0.563137293, 6.69898554e-08, 1, -5.49388837e-08, 0.563137293, -8.31239646e-08, -0.826363325)
+   end,
+})
+
 local Tab = Window:CreateTab("Morphs", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("You can be anything!")
 local Button = Tab:CreateButton({
    Name = "Among Us",
    Callback = function()
    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11.7195272, -153.644852, 340.378601, 0.248885363, 0.662232399, -0.706756175, -0.0308113713, 0.734762609, 0.677624226, 0.968042731, -0.146874622, 0.203275934)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Big Cameraman",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-174.950043, -149.384323, 233.095779, -0.995458603, 0.0369314365, -0.0877395943, 0.00759486947, 0.94955188, 0.313517958, 0.0948919654, 0.311427802, -0.945520103)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Swat Skibid Toilet",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57.2337379, -154.02887, 369.076233, 0.269932061, 3.27595338e-08, -0.96287936, 7.25848315e-09, 1, 3.60573011e-08, 0.96287936, -1.67220655e-08, 0.269932061)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Skibid Toilet Pack",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57.3655128, -154.028854, 346.614014, -0.00840582419, -2.81514079e-09, -0.999964654, -1.59460729e-08, 1, -2.68119571e-09, 0.999964654, 1.59229714e-08, -0.00840582419)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Free Morph 1",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-58.2732658, -131.810425, 349.32608, 0.0425462648, -8.72875745e-08, -0.999094486, 5.34702806e-08, 1, -8.50896598e-08, 0.999094486, -4.98016171e-08, 0.0425462648)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Free Morph 2",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-87.5976715, -115.26387, 360.222443, -0.0150916548, -3.95788256e-08, -0.999886096, 3.24917124e-08, 1, -4.00737434e-08, 0.999886096, -3.3092789e-08, -0.0150916548)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Free Morph 3",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-59.1401215, -115.26387, 359.073303, 0.0224652458, 1.84528037e-09, 0.999747634, 7.81571141e-10, 1, -1.86330884e-09, -0.999747634, 8.23233592e-10, 0.0224652458)
+   end,
+})
+
+local Tab = Window:CreateTab("Gear", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("This is so fun! Just Try It!")
+local Button = Tab:CreateButton({
+   Name = "Plane",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(216.166794, -126.93, 247.363586, -0.948270917, -1.83465465e-09, 0.317462295, -1.93926697e-09, 1, -1.35318094e-11, -0.317462295, -6.28475993e-10, -0.948270917)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "JetPack",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-200.272964, -157.966919, 228.849808, -0.01264608, 2.65492659e-08, 0.999920011, -4.49380018e-08, 1, -2.71197234e-08, -0.999920011, -4.52773676e-08, -0.01264608)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Ice Cream",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(186.23674, -116.383682, 496.29895, -0.515734136, 0.251526386, -0.818994939, -0.0130222356, 0.953521967, 0.30104205, 0.856649697, 0.165922821, -0.488488406)
+   end,
+})
+
+local Tab = Window:CreateTab("Vehicle", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("This is the best one to escape skibid toilet")
+local Button = Tab:CreateButton({
+   Name = "Jeep 1",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(122.604752, -198.906296, 190.590775, -0.23767291, -6.81642653e-09, 0.971345246, -1.86617441e-08, 1, 2.45127607e-09, -0.971345246, -1.75443962e-08, -0.23767291)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Jeep 2",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Jeep 3",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(13.2282801, -198.906296, 278.529633, -0.062690638, 3.67721285e-08, 0.998032987, 2.11678124e-08, 1, -3.55149616e-08, -0.998032987, 1.88997191e-08, -0.062690638)
+   end,
+})
+
+local Tab = Window:CreateTab("Settings", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("This will help you!")
+local Button = Tab:CreateButton({
+   Name = "Keyboard",
+   Callback = function()
+   loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))()
    end,
 })
 
