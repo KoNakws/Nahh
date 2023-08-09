@@ -60,5 +60,11 @@ local Button = Tab:CreateButton({
 
 local Tab = Window:CreateTab("Morphs", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("You can be anything!")
+local Button = Tab:CreateButton({
+   Name = "Among Us",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11.7195272, -153.644852, 340.378601, 0.248885363, 0.662232399, -0.706756175, -0.0308113713, 0.734762609, 0.677624226, 0.968042731, -0.146874622, 0.203275934)
+   end,
+})
 
 Rayfield:LoadConfiguration()
